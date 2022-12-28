@@ -1,0 +1,17 @@
+#descripcion{
+    text-align: justify;
+    font-size: larger;
+    color: rgb(88, 187, 234);
+}
+
+#titulo{
+    color: red;
+}
+
+image{
+    position: inherit;
+}
+
+.angular{
+    margin-top: 20%;
+}
