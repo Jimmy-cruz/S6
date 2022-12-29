@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./contactos.component.css']
 })
 export class ContactosComponent {
-
+  enviar(){
+    alert("DATOS ENVIADOS")
+  }
 }

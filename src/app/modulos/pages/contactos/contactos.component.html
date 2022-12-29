@@ -4,4 +4,42 @@
     <div class="row border-bottom border-info">
         <h2 class="text-center">CONTACTOS</h2>
     </div>
+    <div class="row">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Celular</label>
+              <input type="text" class="form-control" id="inputCelular">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Nombres y Apellidos</label>
+                <input type="text" class="form-control" id="inputname">
+              </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Direccion</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Departamento</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Ica">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Provincia</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>Ica</option>
+                <option>Chincha</option>
+                <option>Paracas</option>
+                <option>Pisco</option>
+              </select>
+            </div>
+            
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary" (click)="enviar()">Enviar</button>
+            </div>
+          </form>
+    </div>
 </div>
